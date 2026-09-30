@@ -1,0 +1,16 @@
+# cauce.space — se permite el rastreo completo del sitio.
+# Los rastreadores de Meta van nombrados aparte porque Meta exige que su
+# User-Agent este permitido de forma explicita para poder verificar el dominio
+# y validar las URLs de politica de privacidad y borrado de datos.
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: facebookcatalog
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: *
+Allow: /
